@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import { useParams, Link } from 'react-router-dom'
 import '../styles/OneCharacter.css'
+
     function OneCharacter() {
         const param = useParams()
         const [ character, setCharacter ] = useState([])
@@ -25,3 +26,5 @@ import '../styles/OneCharacter.css'
             </div>
         </div>)
     }
+
+    export default OneCharacter

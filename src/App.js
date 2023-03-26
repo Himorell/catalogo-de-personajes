@@ -2,7 +2,7 @@ import './App.css';
 import AllCharacters from './components/AllCharacters'
 import OneCharacter from './components/OneCharacter'
 import { BrowserRouter } from 'react-router-dom'
-import RickAndMortyLogo from './'
+import RickAndMortyLogo from './RickAndMortyLogo.png'
 
 function App() {
   return (
